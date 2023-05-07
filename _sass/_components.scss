@@ -28,6 +28,8 @@
   &__item {
     cursor: pointer;
 
+    font-size: 20px;
+
     &:not(.active) {
       @include border-slide();
     }
@@ -70,7 +72,7 @@
     span {
       @extend %letter-spacing;
 
-      font-family: $font-body;
+      font-family: $font-post;
     }
   }
 }
@@ -387,7 +389,7 @@
   max-width: $mq-md;
   margin: 0 auto;
 
-  font-family: $font-post;
+  font-family: $font-body;
 
   @media (min-width: $mq-md) {
     width: 55%;
